@@ -1,4 +1,4 @@
-getgenv().Enabled = false
+getgenv().Enabled = true
 getgenv().Dis = function()
 	Enabled = false
 
@@ -140,7 +140,3 @@ task.spawn(function()
 		end
 	end
 end)
-setfpscap(15)
-game:GetService("RunService"):Set3dRenderingEnabled(false)
-settings().Rendering.QualityLevel = 1
-UserSettings().GameSettings.MasterVolume = 0
